@@ -15,6 +15,7 @@ editor: visual
 ```{r}
 y <- density(iris$Petal.Width)
 class(y)
+mode(y)
 summary(y)
 
 ```
