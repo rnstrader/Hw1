@@ -10,7 +10,7 @@ editor: visual
 
 <!-- -->
 
--   Both data scientists and statisticians work with and model data sets, but the end purpose of this work for the two is separate. For the data scientist, the purpose is to interpret large data sets using preexisting models and are fitted into production systems, whereas the statisticians goal for working with data is to generate new models for data and communicating this novel approach to others."
+-   Both data scientists and statisticians work with and model data sets, but the end purpose of this work for the two is separate. For the data scientist, the purpose is to interpret large data sets using preexisting models and are fitted into production systems, whereas the statisticians goal for working with data is to generate new models for data and communicating this novel approach to others.
 
 -   In my previous work using data, I mainly worked as a researcher in both academic and government research bodies. Because of this my work usually involved taking datasets from experimental studies and using statistical methods to interpret the data and draw conclusions on the effects of various treatments/independent variables. I believe I align more with data scientist because of this as the goal of my application of statistics is to interpret and draw conclusions from data sets rather than developing models.
 
