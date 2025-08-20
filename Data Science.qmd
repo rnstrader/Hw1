@@ -6,16 +6,28 @@ editor: visual
 
 # Data Science Questions
 
-"I think being a data scientist is about knowing ways to manipulate and interpret data sets in meaningful ways in order to draw conclusions that align with what the data is suggesting either through tools such as visualization and/or modeling. In addition the knowledge to communicate these findings to other data scientists or interested individuals/stakeholders."
+-   I think being a data scientist is about knowing ways to manipulate and interpret data sets in meaningful ways in order to draw conclusions that align with what the data is suggesting either through tools such as visualization and/or modeling. In addition the knowledge to communicate these findings to other data scientists or interested individuals/stakeholders.
 
-"Both data scientists and statisticians work with and model data sets, but the end purpose of this work for the two is separate. For the data scientist, the purpose is to interpret large data sets using preexisting models and are fitted into production systems, whereas the statisticians goal for working with data is to generate new models for data and communicating this novel approach to others."
+<!-- -->
 
-"In my previous work using data, I mainly worked as a researcher in both academic and government research bodies. Because of this my work usually involved taking datasets from experimental studies and using statistical methods to interpret the data and draw conclusions on the effects of various treatments/independent variables. I believe I align more with data scientist because of this as the goal of my application of statistics is to interpret and draw conclusions from data sets rather than developing models."
+-   Both data scientists and statisticians work with and model data sets, but the end purpose of this work for the two is separate. For the data scientist, the purpose is to interpret large data sets using preexisting models and are fitted into production systems, whereas the statisticians goal for working with data is to generate new models for data and communicating this novel approach to others."
+
+-   In my previous work using data, I mainly worked as a researcher in both academic and government research bodies. Because of this my work usually involved taking datasets from experimental studies and using statistical methods to interpret the data and draw conclusions on the effects of various treatments/independent variables. I believe I align more with data scientist because of this as the goal of my application of statistics is to interpret and draw conclusions from data sets rather than developing models.
+
+    # Iris Petal Code
+
+Code describing the properties of object y/"iris petal width"
 
 ```{r}
 y <- density(iris$Petal.Width)
 class(y)
-mode(y)
-summary(y)
+typeof(y)
+str(y)
+```
 
+Code plotting a histogram of y
+
+```{r}
+#| echo: false
+plot(y)
 ```
